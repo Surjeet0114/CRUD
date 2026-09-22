@@ -1,0 +1,97 @@
+# ==============================
+# Maven
+# ==============================
+target/
+**/target/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+
+# ==============================
+# Build output
+# ==============================
+build/
+**/build/
+
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+# ==============================
+# H2 / Local Database
+# ==============================
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+*.db
+
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+
+# ==============================
+# Spring Boot
+# ==============================
+HELP.md
+
+
+# ==============================
+# STS / Eclipse
+# ==============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+
+# ==============================
+# NetBeans
+# ==============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
